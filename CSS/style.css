@@ -1,4 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+
+    animation: rainbow 3s;
+    animation-iteration-count: infinite;
+}
+
 h1 {
-    color: red;
-    border: 1rem dashed rgb(130, 184, 130);
+
+
+    font-size: 5rem;
+    text-align: center;
+
+}
+
+
+
+h2 {
+    color: rgb(125, 17, 233);
+    font-size: 30px;
+    animation: fadeIn 2s;
+    text-align: center;
+
+}
+
+
+h2:hover {
+    color: green;
+}
+
+h2:active {
+    color: pink;
+}
+
+h2:target {
+    color: black;
+}
+
+p {
+    color: rgb(169, 1, 191);
+    outline: 1;
+    outline-style: dotted;
+    animation: fadeIn 3s;
+}
+
+#yellow {
+    color: yellow;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        backgrou-color: rgb(255, 219, 219);
+    }
+
+    20% {
+        background-color: rgb(247, 246, 200);
+    }
+
+    40% {
+        background-color: rgb(225, 253, 212);
+    }
+
+    60% {
+        background-color: rgb(208, 220, 248);
+    }
+
+    80% {
+        background-color: rgb(245, 205, 248);
+    }
+
+    100% {
+        background-color: rgb(246, 220, 220);
+    }
+
+    img {}
+}
+
+.centerBlock {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
